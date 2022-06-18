@@ -1,0 +1,45 @@
+.newTaskContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: -3.5rem; // mudar
+
+  input {
+    width: 100%;
+    padding: 1rem;
+
+    border: 0;
+    border-radius: 8px;
+    background: var(--gray-500);
+
+    outline: none;
+
+    &:focus {
+      color: var(--white);
+      border: 1px solid var(--purple-900);
+    }
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1rem;
+
+    color: var(--white);
+    background: var(--blue-900);
+    border: 0;
+    border-radius: 8px;
+
+    font-size: 0.875rem;
+    font-weight: bold;
+
+    transition: .2s background;
+
+    &:hover {
+      background: var(--blue-500);
+    }
+  }
+}
